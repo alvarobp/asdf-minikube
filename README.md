@@ -1,5 +1,7 @@
 # asdf-minikube
 
+[![Build Status](https://travis-ci.org/alvarobp/asdf-minikube.svg?branch=master)](https://travis-ci.org/alvarobp/asdf-minikube)
+
 [Minikube](https://github.com/kubernetes/minikube) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
 ## Install
