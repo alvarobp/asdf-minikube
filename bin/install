@@ -47,7 +47,7 @@ get_download_url() {
   local version=$1
   local filename="$(get_filename)"
 
-  echo "https://github.com/kubernetes/minikube/releases/download/v${version}/${filename}"
+  echo "https://storage.googleapis.com/minikube/releases/v${version}/${filename}"
 }
 
 install_minikube $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
