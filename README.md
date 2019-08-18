@@ -13,3 +13,7 @@ asdf plugin-add minikube https://github.com/alvarobp/asdf-minikube.git
 ## Use
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to install & manage versions of Minikube.
+
+## See also
+
+(asdf-minikube-docker-machine-driver-hyperkit)[https://github.com/matti/asdf-minikube-docker-machine-driver-hyperkit]
