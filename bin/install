@@ -17,6 +17,7 @@ install_minikube() {
 
     case $(uname -m) in
     x86_64) arch="amd64" ;;
+    arm64) arch="arm64" ;;
     *) arch="other" ;;
     esac
 
@@ -25,7 +26,7 @@ install_minikube() {
         exit
     fi
 
-    download="https://github.com/kubernetes/minikube/releases/download/v${install_version}/minikube-${os}-amd64"
+    download="https://github.com/kubernetes/minikube/releases/download/v${install_version}/minikube-${os}-${arch}"
     filename="${install_path}/bin/minikube"
 
     if [ ! -d "${install_path}/bin" ]; then
